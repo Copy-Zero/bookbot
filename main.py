@@ -19,7 +19,6 @@ def scrub_letter(ltr_dict):
     for letter, qty in ltr_dict.items():
         if letter.isalpha():
             ltr_list = [letter, qty]
-            print(ltr_list)
             letters_only.append(ltr_list)
 
     return letters_only
